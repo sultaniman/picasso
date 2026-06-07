@@ -1,7 +1,7 @@
 # picasso
 
 Skills for writing and design. Each skill packages a single body of
-taste — usually grounded in a published authority — into a form Claude can
+taste, usually grounded in a published authority, into a form agents can
 invoke on demand.
 
 ## Install
@@ -10,8 +10,7 @@ invoke on demand.
 cp -R skills/* ~/.agents/skills/
 ```
 
-Claude Code picks them up on the next session. To install a single skill, copy
-just its directory.
+To install a single skill, copy just its directory.
 
 ## Skills
 
@@ -28,10 +27,11 @@ just its directory.
 ## Structure
 
 Each skill is a directory containing a `SKILL.md` with YAML frontmatter (`name`,
-`description`) and optionally supporting reference files. Claude reads the
-description to decide when the skill applies, then loads the full body on
+`description`) and optionally supporting reference files. Agents read the
+description to decide when the skill applies, then load the full body on
 invocation.
 
 ## License
 
 MIT.
+

@@ -1,13 +1,13 @@
 # picasso
 
-Claude Code skills for writing and design. Each skill packages a single body of
+Skills for writing and design. Each skill packages a single body of
 taste — usually grounded in a published authority — into a form Claude can
 invoke on demand.
 
 ## Install
 
 ```sh
-cp -R skills/* ~/.claude/skills/
+cp -R skills/* ~/.agents/skills/
 ```
 
 Claude Code picks them up on the next session. To install a single skill, copy
